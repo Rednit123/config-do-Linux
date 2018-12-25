@@ -170,4 +170,4 @@ bindsym $mod+Shift+f exec "firefox"
 bindsym Print exec "scrot $HOME/Imagens/screenshots/`date +%Y-%m-%d_%H:%M:%S`.png "
 
 #Open ranger
-bindsym $mod+n exec "xterm -e ranger &"
+bindsym $mod+n exec "xterm -e nnn &"
