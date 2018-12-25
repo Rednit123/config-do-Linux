@@ -17,3 +17,5 @@ shellcheck
 xorg
 vim
 fonts-inconsolata
+wget
+git
