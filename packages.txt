@@ -4,7 +4,6 @@ feh
 firefox-esr
 i3
 rofi
-ranger
 less
 lxappearance
 lynx
