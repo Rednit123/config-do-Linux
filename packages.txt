@@ -14,8 +14,14 @@ preload
 scrot
 shellcheck
 xorg
-vim
+neovim
 fonts-inconsolata
 wget
 git
-#nnn
+xfburn
+gimp
+zathura
+bc
+less
+ssh
+traceroute
