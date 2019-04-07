@@ -112,7 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# MY CONFIGS
+#=====MINHAS CONFIGURACÕES=======
 cyan=$(tput setaf 6)
 red=$(tput setaf 1)
 green=$(tput setaf 2)
@@ -121,8 +121,10 @@ PS1="${cyan}\u${green}@${cyan}\h:${green}\W${reset}\n$ "
 
 EDITOR=vim
 
-shopt -s cdspell globstar
+shopt -s cdspell globstar # Adiciona um expansão do bash para subdiretorios "**"
 
+# Inicia o i3 no tty1, eu uso isso para não precisar instalar nenhum display manager.
 if [ "$(tty)" = "/dev/tty1" ]; then
     startx
 fi
+=================================
