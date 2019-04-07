@@ -19,5 +19,5 @@ map <F2> :w <CR> :!zathura *.pdf & <CR>
 au BufNewFile *.sh 0r ~/.config/nvim/templates/skeleton.sh
 au BufNewFile *.tex 0r ~/.config/nvim/templates/skeleton.tex
 
-" Remapeamento da tecla normal
+" Remapeamento da tecla do modo normal
 imap jj <Esc>
