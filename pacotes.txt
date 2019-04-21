@@ -8,6 +8,7 @@ feh
 firefox-esr
 fonts-inconsolata
 gimp
+growisofs
 i3
 less
 lilo
