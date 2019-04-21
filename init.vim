@@ -12,8 +12,9 @@ map <F6> :w <CR> :!bash % <CR>
 map <F5> :setlocal spell! spelllang=pt_br<CR>
 
 " Atalhos para o LaTeX
-map <F1> :w <CR> :!pdflatex % <CR>
-map <F2> :w <CR> :!zathura *.pdf & <CR>
+map <F1> :w <CR> :!pdflatex %<.tex  <CR>
+map <F2> :w <CR> :!biber %<.bcf <CR>
+map <F3> :w <CR> :!zathura %<.pdf & <CR>
 
 " Templates
 au BufNewFile *.sh 0r ~/.config/nvim/templates/skeleton.sh
