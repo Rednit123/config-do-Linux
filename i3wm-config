@@ -169,7 +169,7 @@ bar{
 exec "feh --bg-scale ~/Imagens/wallpaper3.jpg &"
 
 # Define a tecla de atalho para abrir meu browser
-bindsym $mod+Shift+f exec "surf2"
+bindsym $mod+Shift+f exec "midori"
 
 # Tecla de atalhao para tirar print
 bindsym Print exec "scrot $HOME/Imagens/screenshots/`date +%Y-%m-%d_%H:%M:%S`.png "
