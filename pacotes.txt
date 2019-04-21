@@ -27,6 +27,7 @@ preload
 rename-utils
 scrot
 shellcheck
+sudo
 texlive-full
 traceroute
 ulatency
