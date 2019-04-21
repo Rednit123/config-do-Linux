@@ -11,6 +11,8 @@ i3
 less
 lilo
 links
+lua5.2
+lua5.2-doc
 midori
 mplayer
 mutt
