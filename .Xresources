@@ -1,6 +1,18 @@
-# My xterm configuration
+! Minha configuração do Xterm
+
+! FONTE
 xterm*faceName: Inconsolata
-xterm*faceSize: 16
+xterm*faceSize: 18
 xterm*renderFont: True
+
+! COR
 xterm*background: grey27 
 xterm*foreground: grey89
+
+! CURSOR
+xterm*cursorBlink: false
+xterm*cursorColor: red3
+xterm*cursorUnderline: true
+
+! OPÇÕES 
+xterm*fastScroll: true
